@@ -1,0 +1,4 @@
+*
+!public/
+!filemanager/
+!.gitignore

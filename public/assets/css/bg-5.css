@@ -1,0 +1,13 @@
+/* Background css */
+body[data-fx-mode=light] .fx-main-content, body[data-fx-mode=light] .fx-main-content-2, body[data-fx-mode=light] .fx-main-content-3 {
+  background-color: #F8FAFB;
+  background-image: linear-gradient(#f0f0f0 1px, transparent 1px), linear-gradient(to right, #f0f0f0 1px, #F8FAFB 1px);
+  background-size: 20px 20px;
+}
+
+body[data-fx-mode=dark] .fx-main-content, body[data-fx-mode=dark] .fx-main-content-2, body[data-fx-mode=dark] .fx-main-content-3 {
+  background-color: #181d27;
+  background-image: linear-gradient(#1f2531 1px, transparent 1px), linear-gradient(to right, #1f2531 1px, #181d27 1px);
+  background-size: 20px 20px;
+}
+/*# sourceMappingURL=bg-5.css.map */

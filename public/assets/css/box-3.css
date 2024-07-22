@@ -1,0 +1,15 @@
+/**--------------
+    Box design mode
+--------------**/
+body[data-fx-mode=dark] .fx-card {
+  border: 1px solid #313a4b;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body[data-fx-mode=light] .fx-card {
+  border: 1px solid #eee;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=box-3.css.map */

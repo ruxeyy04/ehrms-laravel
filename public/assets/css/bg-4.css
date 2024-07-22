@@ -1,0 +1,11 @@
+/* Background css */
+body[data-fx-mode=light] .fx-main-content, body[data-fx-mode=light] .fx-main-content-2, body[data-fx-mode=light] .fx-main-content-3 {
+  background-size: 5px 5px;
+  background-image: repeating-linear-gradient(to right, #eee, #eee 1px, #F8FAFB 1px, #F8FAFB);
+}
+
+body[data-fx-mode=dark] .fx-main-content, body[data-fx-mode=dark] .fx-main-content-2, body[data-fx-mode=dark] .fx-main-content-3 {
+  background-size: 5px 5px;
+  background-image: repeating-linear-gradient(to right, #1f2531, #1f2531 1px, #181d27 1px, #181d27);
+}
+/*# sourceMappingURL=bg-4.css.map */

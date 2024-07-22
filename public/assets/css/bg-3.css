@@ -1,0 +1,15 @@
+/* Background css */
+body[data-fx-mode=light] .fx-main-content, body[data-fx-mode=light] .fx-main-content-2, body[data-fx-mode=light] .fx-main-content-3 {
+  background-color: #f8fafb;
+  opacity: 1;
+  background-size: 7px 7px;
+  background-image: repeating-linear-gradient(45deg, #eee 0, #eee 0.7px, #f8fafb 0, #f8fafb 50%);
+}
+
+body[data-fx-mode=dark] .fx-main-content, body[data-fx-mode=dark] .fx-main-content-2, body[data-fx-mode=dark] .fx-main-content-3 {
+  background-color: #181d27;
+  opacity: 1;
+  background-size: 7px 7px;
+  background-image: repeating-linear-gradient(45deg, #212735 0, #212735 0.7px, #1a202a 0, #181d27 50%);
+}
+/*# sourceMappingURL=bg-3.css.map */
